@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#all{
+    width: 1170px;
+    margin: 0 auto;
+}
+#calc{
+    border: 1px solid black;
+    width: 400px;
+    height: 500px;
+    margin: 50px auto 0;
+}
+#result{
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    margin: 50px auto 150px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#btns{
+    width: 350px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 5px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+#btn_reset{
+    font-size: 15px;
+}
